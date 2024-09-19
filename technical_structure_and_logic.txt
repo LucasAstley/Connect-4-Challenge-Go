@@ -1,0 +1,18 @@
+Ymmersion Final Project - Connect Four Challenge in Go
+
+I/ Grid creation
+
+The grid will be represented as a bi-dimensional 7x7 array, every sub-array will represent a column (a schematic in
+the README.md should help to understand).
+
+II/ Player interaction
+
+The program will interact with players by asking inputs (integers) in the console to select a column.
+Input errors (input != int, input < 1 or > 7) will be handled and clearly explained to players.
+Grid errors (column full, grid full) will also be explained to players.
+
+III/ Project organization
+
+The main.go file is only going to import every dependencies, create the grid, and announce the end of the game.
+Every others functions required to make the game works properly will be split in several files organized by
+categories (grid & players) and used in the main to end the game properly.
