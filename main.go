@@ -1,8 +1,8 @@
 package main
 
 import (
-	"connect-four/grid"
-	"connect-four/players"
+	"Connect-4-Challenge-Go/grid"
+	"Connect-4-Challenge-Go/players"
 	"fmt"
 	"github.com/logrusorgru/aurora/v4"
 )

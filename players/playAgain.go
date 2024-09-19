@@ -1,7 +1,7 @@
 package players
 
 import (
-	"connect-four/grid"
+	"Connect-4-Challenge-Go/grid"
 	"fmt"
 	"github.com/logrusorgru/aurora/v4"
 )

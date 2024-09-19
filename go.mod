@@ -1,4 +1,4 @@
-module connect-four
+module Connect-4-Challenge-Go
 
 go 1.23.0
 
