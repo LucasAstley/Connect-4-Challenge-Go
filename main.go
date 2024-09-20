@@ -28,9 +28,8 @@ func main() {
 			if players.AskToPlayAgain() {
 				main()
 				return
-			} else {
-				return
 			}
+			return
 		}
 	}
 	fmt.Println("")
