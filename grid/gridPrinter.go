@@ -11,6 +11,7 @@ import (
 func PrintGrid(board *[7][7]string) {
 	// Clear the terminal and print the grid line by line
 	ClearTerminal()
+	fmt.Println("")
 	for j := 6; j >= 0; j-- {
 		fmt.Printf("|")
 		for i := 0; i <= 6; i++ {
